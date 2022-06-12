@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    color: #444444;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 100%;
+    height: auto;
+}   
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+}
+
+h4 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+}
+
+h5 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+}
+
+h6 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #e45826;
+    background-color: white;
+}
+
+.header_container {
+    width: 100%;
+}
+
+.logo {
+    display: inline-flex;
+    width: 48px;
+    height: 56px;
+    padding: 10px 5px;
+}
+
+.nav {
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.nav a {
+    padding: 10px 5px;
+    font-size: small;
+}
+
+.nav :hover {
+    background-color: #e45826;
+    color: white;
+}
+
+.nav a:nth-child(2) {
+    background-color: #e45826;
+    color: white;
+}
+
+.container {
+    
+    text-align: center;
+    font-size: x-large;
+    align-content: center;
+    align-self: center;
+    width: 100%;
+
+}
+
+.container h1 {
+    font-size: xx-large;
+    align-content: center;
+    align-self: center;
+    padding: 80px 100px;
+}
+
+.container p {
+    font-size: xx-large;
+    align-content: center;
+    align-self: center;
+    width: 100%;
+    padding: 0px 200px;
+}
+
+.container img {
+    align-content: center;
+    align-self: center;
+    padding: 80px;
+}
+
+footer {   
+    display: grid;
+    position: absolute;
+    top: 1080px;
+    justify-content: space-around;
+    width: 100%;
+    height: 220px;
+}
+
+.nav2 {
+    bottom: 60px;
+    left: 210px;
+    vertical-align: middle;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.nav2 h1{
+    font-size: 24px;
+}
+.nav2 :hover {
+    background-color: #e45826;
+    color: white;
+}
+
+.social {
+    bottom: 100px;
+    left: 700px;
+    vertical-align: middle;
+    align-content: center;
+    width: 300px;
+    padding: 10px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.social h1{
+    font-size: 24px;
+}
+
+.policy {
+    bottom: 130px;
+    left: 1300px;
+    width: 300px;
+    padding: 10px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.policy h1{
+    font-family: 'Fira San' sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+footer p {
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+    color: #e45826;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 400px;
+}
