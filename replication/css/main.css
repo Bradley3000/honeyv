@@ -490,7 +490,7 @@ a {
     grid-row-end: 1;
     top: 20px;
     left: 20px;
-    padding-left: 20px;: ;
+    padding-left: 20px;
 }
 
 .b1 {
@@ -545,7 +545,6 @@ a {
 
 .body3 {
     display: grid;
-    grid-auto-columns: ;
     background-color: white;
     position: relative;
     top: 120px;
